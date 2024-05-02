@@ -2,14 +2,14 @@
 #include <vector>
 #include <unordered_map>
 #include <string>
-
-// Forward declarations
-class GameObject;
+#include <cassert>
 
 // Component base class
 class Component {
 public:
-    virtual ~Component() {}
+    virtual ~Component() {
+        std::cout << "Component destroyed" << std::endl;
+    }
     virtual void update() = 0;
 };
 
@@ -18,7 +18,8 @@ class TransformComponent : public Component {
 public:
     float x, y, z;
     void update() override {
-        // Update transform logic here
+        // Debugging output for transformations
+        std::cout << "Updating Transform Component: Position(" << x << ", " << y << ", " << z << ")" << std::endl;
     }
 };
 
@@ -26,7 +27,7 @@ public:
 class BehaviorComponent : public Component {
 public:
     void update() override {
-        // Behavior update logic
+        std::cout << "Updating Behavior Component" << std::endl;
     }
 };
 
@@ -36,7 +37,9 @@ public:
     std::vector<Component*> components;
     std::string tag;
 
-    GameObject(const std::string& tag) : tag(tag) {}
+    GameObject(const std::string& tag) : tag(tag) {
+        std::cout << "GameObject created with tag: " << tag << std::endl;
+    }
 
     template <typename T>
     T* getComponent() {
@@ -50,12 +53,14 @@ public:
     }
 
     void update() {
+        std::cout << "Updating GameObject: " << tag << std::endl;
         for (auto comp : components) {
             comp->update();
         }
     }
 
     ~GameObject() {
+        std::cout << "Destroying GameObject: " << tag << std::endl;
         for (auto comp : components) {
             delete comp;
         }
@@ -70,16 +75,23 @@ private:
 
 public:
     void addObject(GameObject* obj) {
+        assert(obj != nullptr && "Attempt to add a null GameObject to the scene");
         objects.push_back(obj);
+        std::cout << "GameObject added to scene: " << obj->tag << std::endl;
     }
 
     void removeObject(GameObject* obj) {
+        assert(obj != nullptr && "Attempt to remove a null GameObject from the scene");
         auto it = std::remove(objects.begin(), objects.end(), obj);
-        objects.erase(it, objects.end());
-        delete obj;
+        if (it != objects.end()) {
+            std::cout << "GameObject removed from scene: " << obj->tag << std::endl;
+            objects.erase(it, objects.end());
+            delete obj;
+        }
     }
 
     ~Scene() {
+        std::cout << "Cleaning up Scene" << std::endl;
         for (auto obj : objects) {
             delete obj;
         }
@@ -87,32 +99,34 @@ public:
     }
 
     void update() {
+        std::cout << "Updating Scene" << std::endl;
         for (auto obj : objects) {
             obj->update();
         }
     }
 };
 
-// Global scene
+// Global scene instance
 Scene mainScene;
 
-// Main game loop
+// Main game loop with debugging
 void gameLoop() {
+    std::cout << "Game loop started" << std::endl;
     while (true) {
         mainScene.update();
-        // Additional game loop logic such as rendering, input handling, etc.
+        // Add a break condition or input check here to stop the loop for debugging
     }
 }
 
 int main() {
-    // Game initialization code
     GameObject* player = new GameObject("player");
     player->components.push_back(new TransformComponent());
     player->components.push_back(new BehaviorComponent());
 
     mainScene.addObject(player);
 
-    // Start the game loop
+    // Debug: Show initial setup
+    std::cout << "Starting game loop" << std::endl;
     gameLoop();
 
     return 0;
