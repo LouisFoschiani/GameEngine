@@ -30,10 +30,20 @@
     <ClCompile Include="GameObject.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+<<<<<<< Updated upstream
     <ClCompile Include="SceneManager.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="Scene.cpp">
+=======
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="BehaviourComponent.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveBehaviour.cpp">
+>>>>>>> Stashed changes
       <Filter>Fichiers sources</Filter>
     </ClCompile>
   </ItemGroup>
@@ -59,6 +69,7 @@
     <ClInclude Include="GameObject.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+<<<<<<< Updated upstream
     <ClInclude Include="SceneManager.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
@@ -69,5 +80,16 @@
   <ItemGroup>
     <None Include="Scene.json" />
     <None Include="packages.config" />
+=======
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="BehaviourComponent.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveBehaviour.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
+>>>>>>> Stashed changes
   </ItemGroup>
 </Project>

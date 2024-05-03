@@ -1,4 +1,4 @@
-
+#pragma once
 #include "InfraStructure.h"
 
 namespace ESGI
