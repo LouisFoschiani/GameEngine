@@ -107,9 +107,9 @@ namespace ESGI
 		void Destroy()
 		{
 			for (auto * core : make_reverse(m_cores)) {
-#if defined(_DEBUG)
+			#if defined(_DEBUG)
 				std::cout << "destroying core " << core->DebugName().c_str() << std::endl;
-#endif
+			#endif
 				delete core;
 			}
 

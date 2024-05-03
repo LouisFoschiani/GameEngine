@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "D:\\GitHub\\GameEngine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GitHub\\GameEngine\\mainloop\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GitHub\\GameEngine\\mainloop\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GitHub\\GameEngine\\mainloop\\mainloop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\mainloop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GitHub\\GameEngine\\mainloop\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GitHub\\GameEngine\\mainloop\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GitHub\\GameEngine\\mainloop\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GitHub\\GameEngine\\mainloop\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GitHub\\GameEngine\\mainloop\\Timer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Timer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GitHub\\GameEngine\\mainloop\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +38,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "Input.cpp",
+              "DocumentMoniker": "D:\\GitHub\\GameEngine\\mainloop\\Input.cpp",
+              "RelativeDocumentMoniker": "mainloop\\Input.cpp",
+              "ToolTip": "D:\\GitHub\\GameEngine\\mainloop\\Input.cpp",
+              "RelativeToolTip": "mainloop\\Input.cpp",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-03T12:53:36.193Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Timer.cpp",
+              "DocumentMoniker": "D:\\GitHub\\GameEngine\\mainloop\\Timer.cpp",
+              "RelativeDocumentMoniker": "mainloop\\Timer.cpp",
+              "ToolTip": "D:\\GitHub\\GameEngine\\mainloop\\Timer.cpp",
+              "RelativeToolTip": "mainloop\\Timer.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-03T12:23:08.293Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Engine.cpp",
+              "DocumentMoniker": "D:\\GitHub\\GameEngine\\mainloop\\Engine.cpp",
+              "RelativeDocumentMoniker": "mainloop\\Engine.cpp",
+              "ToolTip": "D:\\GitHub\\GameEngine\\mainloop\\Engine.cpp",
+              "RelativeToolTip": "mainloop\\Engine.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-03T09:36:23.027Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Input.h",
               "DocumentMoniker": "D:\\GitHub\\GameEngine\\mainloop\\Input.h",
               "RelativeDocumentMoniker": "mainloop\\Input.h",
@@ -43,41 +94,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Input.cpp",
-              "DocumentMoniker": "D:\\GitHub\\GameEngine\\mainloop\\Input.cpp",
-              "RelativeDocumentMoniker": "mainloop\\Input.cpp",
-              "ToolTip": "D:\\GitHub\\GameEngine\\mainloop\\Input.cpp",
-              "RelativeToolTip": "mainloop\\Input.cpp",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-03T09:26:57.773Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "GameObject.cpp",
               "DocumentMoniker": "D:\\GitHub\\GameEngine\\mainloop\\GameObject.cpp",
               "RelativeDocumentMoniker": "mainloop\\GameObject.cpp",
               "ToolTip": "D:\\GitHub\\GameEngine\\mainloop\\GameObject.cpp",
               "RelativeToolTip": "mainloop\\GameObject.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-03T09:24:26.814Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "GameObject.h",
               "DocumentMoniker": "D:\\GitHub\\GameEngine\\mainloop\\GameObject.h",
               "RelativeDocumentMoniker": "mainloop\\GameObject.h",
               "ToolTip": "D:\\GitHub\\GameEngine\\mainloop\\GameObject.h",
               "RelativeToolTip": "mainloop\\GameObject.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-03T09:24:12.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "mainloop.cpp",
+              "DocumentMoniker": "D:\\GitHub\\GameEngine\\mainloop\\mainloop.cpp",
+              "RelativeDocumentMoniker": "mainloop\\mainloop.cpp",
+              "ToolTip": "D:\\GitHub\\GameEngine\\mainloop\\mainloop.cpp",
+              "RelativeToolTip": "mainloop\\mainloop.cpp",
+              "ViewState": "AQIAABkAAAAAAAAAAADwvy4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-03T08:55:02.859Z",
               "EditorCaption": ""
             }
           ]
