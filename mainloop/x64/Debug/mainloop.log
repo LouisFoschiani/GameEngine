@@ -1,2 +1,25 @@
-﻿  GameObject.cpp
-  mainloop.vcxproj -> D:\GitHub\GameEngine\x64\Debug\mainloop.exe
+﻿  Engine.cpp
+  GameObject.cpp
+  mainloop.cpp
+  Input.cpp
+  Scene.cpp
+  SceneManager.cpp
+D:\GitHub\GameEngine\mainloop\GameObject.h(6,20): error C2011: 'ESGI::GameObject' : redéfinition du type 'struct'
+  (compiler le fichier source 'Scene.cpp')
+  D:\GitHub\GameEngine\mainloop\GameObject.h(6,9):
+  voir la déclaration de 'ESGI::GameObject'
+  
+D:\GitHub\GameEngine\mainloop\Scene.cpp(11,9): warning C4150: suppression de pointeur vers type incomplet 'ESGI::GameObject' ; aucun destructeur appelé
+  D:\GitHub\GameEngine\mainloop\GameObject.h(6,9):
+  voir la déclaration de 'ESGI::GameObject'
+  
+D:\GitHub\GameEngine\mainloop\Scene.cpp(23,9): warning C4150: suppression de pointeur vers type incomplet 'ESGI::GameObject' ; aucun destructeur appelé
+  D:\GitHub\GameEngine\mainloop\GameObject.h(6,9):
+  voir la déclaration de 'ESGI::GameObject'
+  
+D:\GitHub\GameEngine\mainloop\Scene.cpp(30,9): error C2027: utilisation du type non défini 'ESGI::GameObject'
+  D:\GitHub\GameEngine\mainloop\GameObject.h(6,9):
+  voir la déclaration de 'ESGI::GameObject'
+  
+  Timer.cpp
+  Génération de code en cours...

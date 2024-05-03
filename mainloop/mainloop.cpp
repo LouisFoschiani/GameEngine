@@ -12,10 +12,10 @@
 #include "Input.h"
 #include "Engine.h"
 #include "EngineContext.h"
-
 #include <iostream>
 #include <vector>
 #include <thread>
+#include "SceneManager.h"
 
 namespace ESGI
 {
@@ -161,6 +161,8 @@ namespace ESGI
 
 			if (initOk) {
 				initOk &= Initialize();
+				SceneManager sceneManager;
+				initOk &= sceneManager.loadScene("Scene.json");
 			}
 
 			m_needToQuit = !initOk;

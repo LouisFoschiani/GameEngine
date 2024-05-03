@@ -8,7 +8,7 @@ namespace ESGI
 		GameObject();
 		~GameObject();
 		void Update(float deltaTime);
-		static std::vector<GameObject*> pool;
+		
 		static int currentIndex;
 		static int poolSize;
 

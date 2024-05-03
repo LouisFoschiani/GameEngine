@@ -1,0 +1,37 @@
+{
+  "gameObjects": [
+    {
+      "name": "Player",
+      "components": [
+        {
+          "type": "Transform",
+          "position": { "x": 0, "y": 0, "z": 0 },
+          "rotation": { "x": 0, "y": 0, "z": 0 },
+          "scale": { "x": 1, "y": 1, "z": 1 }
+        },
+        {
+          "type": "Renderer",
+          "model": "player_mesh.obj"
+        },
+        {
+          "type": "Script",
+          "scriptName": "PlayerController"
+        }
+      ]
+    },
+    {
+      "name": "Enemy",
+      "components": [
+        {
+          "type": "Transform",
+          "position": { "x": 10, "y": 0, "z": 0 }
+        },
+        {
+          "type": "Physics",
+          "mass": 5,
+          "drag": 0.5
+        }
+      ]
+    }
+  ]
+}
