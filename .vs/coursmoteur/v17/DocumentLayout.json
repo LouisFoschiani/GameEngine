@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "D:\\GitHub\\GameEngine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GitHub\\GameEngine\\mainloop\\mainloop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\mainloop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GitHub\\GameEngine\\mainloop\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GitHub\\GameEngine\\mainloop\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GitHub\\GameEngine\\mainloop\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GitHub\\GameEngine\\mainloop\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "mainloop.cpp",
-              "DocumentMoniker": "D:\\GitHub\\GameEngine\\mainloop\\mainloop.cpp",
-              "RelativeDocumentMoniker": "mainloop\\mainloop.cpp",
-              "ToolTip": "D:\\GitHub\\GameEngine\\mainloop\\mainloop.cpp",
-              "RelativeToolTip": "mainloop\\mainloop.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAOAAAA",
+              "DocumentIndex": 1,
+              "Title": "Input.h",
+              "DocumentMoniker": "D:\\GitHub\\GameEngine\\mainloop\\Input.h",
+              "RelativeDocumentMoniker": "mainloop\\Input.h",
+              "ToolTip": "D:\\GitHub\\GameEngine\\mainloop\\Input.h",
+              "RelativeToolTip": "mainloop\\Input.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-03T09:27:06.268Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Input.cpp",
+              "DocumentMoniker": "D:\\GitHub\\GameEngine\\mainloop\\Input.cpp",
+              "RelativeDocumentMoniker": "mainloop\\Input.cpp",
+              "ToolTip": "D:\\GitHub\\GameEngine\\mainloop\\Input.cpp",
+              "RelativeToolTip": "mainloop\\Input.cpp",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAA0AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-03T08:55:02.859Z",
+              "WhenOpened": "2024-05-03T09:26:57.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GameObject.cpp",
+              "DocumentMoniker": "D:\\GitHub\\GameEngine\\mainloop\\GameObject.cpp",
+              "RelativeDocumentMoniker": "mainloop\\GameObject.cpp",
+              "ToolTip": "D:\\GitHub\\GameEngine\\mainloop\\GameObject.cpp",
+              "RelativeToolTip": "mainloop\\GameObject.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-03T09:24:26.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameObject.h",
+              "DocumentMoniker": "D:\\GitHub\\GameEngine\\mainloop\\GameObject.h",
+              "RelativeDocumentMoniker": "mainloop\\GameObject.h",
+              "ToolTip": "D:\\GitHub\\GameEngine\\mainloop\\GameObject.h",
+              "RelativeToolTip": "mainloop\\GameObject.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-03T09:24:12.622Z",
               "EditorCaption": ""
             }
           ]

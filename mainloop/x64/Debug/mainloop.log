@@ -1,6 +1,2 @@
-﻿  Engine.cpp
-  mainloop.cpp
-  Input.cpp
-  Timer.cpp
-  Génération de code en cours...
+﻿  GameObject.cpp
   mainloop.vcxproj -> D:\GitHub\GameEngine\x64\Debug\mainloop.exe
