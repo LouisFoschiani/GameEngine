@@ -34,7 +34,7 @@ namespace ESGI {
     }
 
     // Conversion d'un GameObject en JSON
-    nlohmann::json GameObjectFactory::GameObjectToJson(const GameObject* gameObject) {
+    nlohmann::json GameObjectFactory::GameObjectToJson(GameObject* gameObject) {
         nlohmann::json j;
         j["type"] = "GameObject";
         for (auto& comp : gameObject->GetComponents()) {

@@ -1,4 +1,6 @@
 #include "GameObject.h"
+#include <string>
+
 namespace ESGI
 {
 	class Component
@@ -18,5 +20,6 @@ namespace ESGI
 		Component();
 		~Component();
 		void Link(GameObject* gameObject);
+		std::string ToJson() const;
 	};
 }
