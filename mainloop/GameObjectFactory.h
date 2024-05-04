@@ -6,8 +6,6 @@
 #include <nlohmann/json.hpp>
 #include <string>
 
-namespace ESGI {
-
     class GameObjectFactory {
     public:
         // Crée un GameObject en fonction du type spécifié
@@ -16,6 +14,3 @@ namespace ESGI {
         // Convertit un GameObject en JSON pour la sauvegarde
         static nlohmann::json GameObjectToJson(GameObject* gameObject);
     };
-
-
-}

@@ -1,7 +1,6 @@
 #pragma once
 
 
-namespace ESGI {
 	struct EngineContext
 	{
 		// l'utilisation de references dans EngineContext nous permet d'utiliser une syntaxe proche du C#
@@ -16,4 +15,3 @@ namespace ESGI {
 		Input& Input() const;
 		Engine& Engine() const;
 	};
-}

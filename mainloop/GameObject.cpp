@@ -1,6 +1,6 @@
 #include "GameObject.h"
+#include "Component.h"
 
-namespace ESGI {
 	void GameObject::AddComponent(Component* component)
 	{
 
@@ -13,6 +13,3 @@ namespace ESGI {
 	{
 		return components;
 	}
-}
-
-

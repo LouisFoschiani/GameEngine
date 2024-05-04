@@ -6,8 +6,6 @@
 
 #include <iostream>
 
-namespace ESGI {
-
 	void Engine::ProcessSystems(double elapsedTime)
 	{
 		EngineSystem& system = *m_AIEngine;
@@ -75,5 +73,3 @@ namespace ESGI {
 
 		ProcessSystems(elapsedTime);
 	}
-
-}

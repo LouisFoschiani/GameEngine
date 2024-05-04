@@ -18,8 +18,6 @@
 #include "SceneManager.h"
 #include "GameObjectFactory.h"
 
-namespace ESGI
-{
 	//
 	// fonctions globales
 	//
@@ -81,9 +79,9 @@ namespace ESGI
 		//
 		static EngineContext& CreateContext()
 		{
-			Clock* clock = new ESGI::Clock;
-			Input* input = new ESGI::Input;
-			Engine* engine = new ESGI::Engine;
+			Clock* clock = new Clock;
+			Input* input = new Input;
+			Engine* engine = new Engine;
 
 			static EngineContext context(*clock, *input, *engine);
 			return context;
@@ -128,10 +126,10 @@ namespace ESGI
 			// exemple de scheduling de deux fonctions (non membre, plus simple a faire)
 			// todo: event/delegate facon c# acceptant tout type de fonction.
 
-			ESGI::Timer timer1{ 9.0, 0.0, false };
+			Timer timer1{ 9.0, 0.0, false };
 			m_context.Clock().AddTimer(timer1, &OneTimeEvent);
 
-			ESGI::Timer timer2{ 5.0, 0.0, true };
+			Timer timer2{ 5.0, 0.0, true };
 			m_context.Clock().AddTimer(timer2, &RecurringTimeEvent);
 
 			return allOk;
@@ -171,9 +169,11 @@ namespace ESGI
 			sceneManager->sceneVector[0]->AddObject(go);
 			GameObjectFactory::GameObjectToJson(go);
 
-			sceneManager->LoadScene("C:\\Users\\Louis\\Desktop\\SceneJson.json");
+			sceneManager->SaveScene(sceneManager->sceneVector[0], "C:\\Users\\Louis\\Desktop\\SceneJson.json");
 
-			sceneManager->sceneVector[0]->Debug();
+			// sceneManager->LoadScene("C:\\Users\\Louis\\Desktop\\SceneJson.json");
+
+			// sceneManager->sceneVector[0]->Debug();
 
 			return;
 
@@ -199,12 +199,9 @@ namespace ESGI
 			Destroy();
 		}
 	};
-}
-
 
 int main(void)
 {
-	using namespace ESGI;
 	
 	Application gameEngine;
 

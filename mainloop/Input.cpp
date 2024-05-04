@@ -6,7 +6,6 @@
 
 #include <iostream>
 
-namespace ESGI {
 
 	bool Input::Initialize() 
 	{
@@ -39,4 +38,3 @@ namespace ESGI {
 		}
 		return false;
 	}
-}

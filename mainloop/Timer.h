@@ -6,8 +6,6 @@
 #include <vector>
 #include <functional>
 
-namespace ESGI
-{
 	struct TimeSource
 	{
 		using TimePoint = std::chrono::time_point<std::chrono::high_resolution_clock>;
@@ -43,4 +41,3 @@ namespace ESGI
 			m_Timers.push_back({ timer, event });
 		}
 	};
-}

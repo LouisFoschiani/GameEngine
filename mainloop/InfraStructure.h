@@ -2,8 +2,6 @@
 
 #include <string>
 
-namespace ESGI
-{
 	// Cores
 
 	struct InfraStructure
@@ -20,4 +18,3 @@ namespace ESGI
 		virtual void DeInitialize() = 0;
 
 	};
-}

@@ -1,10 +1,10 @@
 #pragma once
 
 #include <vector>
+#include "Component.h"
 #include "GameObject.h" 
 #include <cassert>
 
-namespace ESGI {
     class Scene {
     public:
 
@@ -40,5 +40,3 @@ namespace ESGI {
         int currentIndex = 0;
         GameObject** pool;
     };
-
-}

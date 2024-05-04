@@ -1,6 +1,6 @@
 #include "MoveBehaviour.h"
 
-void ESGI::MoveBehaviour::Update()
+void MoveBehaviour::Update()
 {
 
 

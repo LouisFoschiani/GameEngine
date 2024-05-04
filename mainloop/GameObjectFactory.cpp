@@ -1,9 +1,8 @@
 #include "GameObjectFactory.h"
 
-namespace ESGI {
     // Implémentation de la méthode pour créer un GameObject en fonction du type
     GameObject* GameObjectFactory::CreateGameObject(const std::string& type) {
-        GameObject* obj = GameObject::Allocate();
+        GameObject* obj = new GameObject();
         if (!obj) {
             std::cerr << "Failed to allocate GameObject" << std::endl;
             return nullptr;
@@ -42,4 +41,3 @@ namespace ESGI {
         }
         return j;
     }
-}

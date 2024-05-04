@@ -2,13 +2,8 @@
 
 #include "Component.h"
 
-namespace ESGI
+class BehaviourComponent : public Component
 {
 
-	class BehaviourComponent : public Component
-	{
 
-
-	};
-
-}
+};

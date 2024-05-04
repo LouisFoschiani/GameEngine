@@ -2,8 +2,7 @@
 
 #include "Component.h"
 #include <iostream>
-namespace ESGI
-{
+
 	class TransformComponent : public Component
 	{
 
@@ -26,9 +25,8 @@ namespace ESGI
 		void MoveZ(const float z);
 		void Move(const float x, const float y, const float z);
 
-		void Debug() final;
+		void Debug();
 
 		std::string ToJson() const;
 
 	};
-}

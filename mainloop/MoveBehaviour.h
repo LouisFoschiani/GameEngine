@@ -2,13 +2,9 @@
 
 #include "BehaviourComponent.h"
 
-namespace ESGI {
+class MoveBehaviour : public BehaviourComponent
+{
 
-	class MoveBehaviour : public BehaviourComponent
-	{
+	void Update() final;
 
-		void Update() final;
-
-	};
-}
-
+};

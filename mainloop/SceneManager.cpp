@@ -1,8 +1,5 @@
 #include "SceneManager.h"
 
-namespace ESGI {
-
-
 
     bool SceneManager::LoadScene(const std::string& filename) {
         std::ifstream file(filename);
@@ -11,7 +8,7 @@ namespace ESGI {
 
         Scene* scene = new Scene(1024);
         for (const auto& item : j["gameObjects"]) {
-            ESGI::GameObject* gameObject = new ESGI::GameObject();  // ou une méthode de votre pool si utilisé
+            GameObject* gameObject = new GameObject();  // ou une méthode de votre pool si utilisé
             for (const auto& comp : item["components"]) {
                 const std::string& type = comp["type"];
                 if (type == "Transform") {
@@ -42,13 +39,13 @@ namespace ESGI {
         sceneVector.push_back(scene);
     }
 
-    void SceneManager::SaveScene(Scene& scene, const std::string& filename) {
+    void SceneManager::SaveScene(Scene* scene, const std::string& filename) {
         nlohmann::json sceneJson;
 
 
-        for (int i = 0; i < scene.GetPoolSize(); ++i) {
-            if (scene.GetPool()[i] != NULL) {
-                sceneJson["content"].push_back(GameObjectFactory::GameObjectToJson(scene.GetPool()[i]));  // Assurez-vous que chaque composant a une méthode ToJson()
+        for (int i = 0; i < scene->GetPoolSize(); ++i) {
+            if (scene->GetPool()[i] != NULL) {
+                sceneJson["content"].push_back(GameObjectFactory::GameObjectToJson(scene->GetPool()[i]));  // Assurez-vous que chaque composant a une méthode ToJson()
             }
         }
 
@@ -63,7 +60,7 @@ namespace ESGI {
         }
     }
 
-    void SceneManager::processTransformComponent(ESGI::GameObject* gameObject, const nlohmann::json& componentData) {
+    void SceneManager::processTransformComponent(GameObject* gameObject, const nlohmann::json& componentData) {
         // Vérifiez d'abord si le GameObject et le JSON sont valides
         if (!gameObject || componentData.is_null()) {
             std::cerr << "Marche pas le TransformComponent" << std::endl;
@@ -81,12 +78,10 @@ namespace ESGI {
     }
 
 
-    void SceneManager::processRendererComponent(ESGI::GameObject* gameObject, const nlohmann::json& componentData) {
+    void SceneManager::processRendererComponent(GameObject* gameObject, const nlohmann::json& componentData) {
         // Process logic for renderer component
     }
 
-    void SceneManager::processScriptComponent(ESGI::GameObject* gameObject, const nlohmann::json& componentData) {
+    void SceneManager::processScriptComponent(GameObject* gameObject, const nlohmann::json& componentData) {
         // Process logic for script component
     }
-
-}

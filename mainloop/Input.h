@@ -2,8 +2,6 @@
 
 #include "InfraStructure.h"
 
-namespace ESGI
-{
 	struct Input : public InfraStructure
 	{
 		bool QuitButtonPressed = false;
@@ -17,4 +15,3 @@ namespace ESGI
 
 		bool GetQuitButtonState();
 	};
-}

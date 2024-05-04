@@ -3,8 +3,6 @@
 
 #include <iostream>
 
-namespace ESGI {
-
 	bool Clock::Initialize()
 	{
 #if defined(_DEBUG)
@@ -55,4 +53,3 @@ namespace ESGI {
 
 		std::cout << "[Timer] update\n";
 	}
-}

@@ -1,13 +1,10 @@
 #pragma once
 #include "InfraStructure.h"
-#include "Component.h"
-#include <vector> 
-#include "TransformComponent.h"
-#include "BehaviourComponent.h"
+#include <vector>
 #include <iostream>
 
-namespace ESGI
-{
+class Component;
+
 	struct GameObject
 	{
 
@@ -16,8 +13,8 @@ namespace ESGI
 
 
 	public:
-		GameObject();
-		~GameObject();
+		GameObject() = default;
+		~GameObject() = default;
 		void Update(float deltaTime);
 		// ce n'est pas une fonction virtuelle !
 		void Update();
@@ -25,6 +22,3 @@ namespace ESGI
 		std::vector<Component*>& GetComponents();
 
 	};
-
-
-}

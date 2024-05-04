@@ -1,26 +1,25 @@
-#include "GameObject.h"
+#pragma once
+
+// #include "GameObject.h"
 #include <string>
 
-namespace ESGI
+struct GameObject;
+
+class Component
 {
-	class Component
-	{
 
+private:
+	GameObject* gameObject;
+	virtual bool Initialize();
 
-	private:
-		GameObject* gameObject;
+	virtual void DeInitialize();
 
-		virtual bool Initialize();
+	virtual void Update();
 
-		virtual void DeInitialize();
-
-		virtual void Update();
-
-	public:
-		Component();
-		~Component();
-		void Link(GameObject* gameObject);
-		virtual std::string ToJson() const;
-		virtual void Debug();
-	};
-}
+public:
+	Component();
+	~Component();
+	void Link(GameObject* gameObject);
+	virtual std::string ToJson() const;
+	virtual void Debug();
+};

@@ -1,7 +1,5 @@
 #pragma once
 
-namespace ESGI
-{
 	// Pour les cas ou il nous faut faire des for-each en reverse
 	// specifiquement pour les vector ici
 	template <typename V>
@@ -22,4 +20,3 @@ namespace ESGI
 	reverse_wrapper<T> make_reverse(T& v) {
 		return reverse_wrapper<T>(v);
 	}
-}
