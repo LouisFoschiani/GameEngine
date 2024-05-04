@@ -10,8 +10,10 @@ namespace ESGI {
     class SceneManager {
     public:
 
-        std::vector<Scene*> sceneVector;
-        bool loadScene(const std::string& filename);
+        SceneManager();
+        ~SceneManager();
+        static std::vector<Scene*> sceneVector;
+        static bool loadScene(const std::string& filename);
 
     private:
         void processTransformComponent(ESGI::GameObject* gameObject, const nlohmann::json& componentData);

@@ -1,4 +1,5 @@
 #include "TransformComponent.h"
+#include "nlohmann/json.hpp"
 
 float ESGI::TransformComponent::GetX() const
 {
@@ -39,3 +40,13 @@ void ESGI::TransformComponent::Move(const float x, const float y, const float z)
 
 }
 
+std::string ESGI::TransformComponent::ToJson() const {
+	nlohmann::json j;
+	j["type"] = "TransformComponent";
+	j["position"] = {
+		{"x", posX},
+		{"y", posY},
+		{"z", posZ}
+	};
+	return j.dump();
+}

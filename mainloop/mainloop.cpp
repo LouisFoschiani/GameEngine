@@ -158,12 +158,15 @@ namespace ESGI
 		void Run()
 		{
 			bool initOk = Create();
-
+			SceneManager* sceneManager = new SceneManager();
 			if (initOk) {
 				initOk &= Initialize();
-				SceneManager sceneManager;
-				initOk &= sceneManager.loadScene("Scene.json");
+				
+				initOk &= sceneManager->loadScene("SceneJson.json");
+
 			}
+			sceneManager->sceneVector[0];
+
 
 			m_needToQuit = !initOk;
 

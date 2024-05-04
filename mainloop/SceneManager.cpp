@@ -29,13 +29,27 @@ namespace ESGI {
             }
         }
 
-        sceneVector.push_back(scene);
+         SceneManager::sceneVector.push_back(scene);
         return true;
     }
 
     void SceneManager::processTransformComponent(ESGI::GameObject* gameObject, const nlohmann::json& componentData) {
-        // Process logic for transform component
+        // Vérifiez d'abord si le GameObject et le JSON sont valides
+        if (!gameObject || componentData.is_null()) {
+            std::cerr << "Marche pas le TransformComponent" << std::endl;
+            return;
+        }
+
+        float x = componentData.value("x", 0.0f);
+        float y = componentData.value("y", 0.0f);
+        float z = componentData.value("z", 0.0f);
+
+        TransformComponent* transform = new TransformComponent(x,y,z);
+        gameObject->AddComponent(transform);
+
+
     }
+
 
     void SceneManager::processRendererComponent(ESGI::GameObject* gameObject, const nlohmann::json& componentData) {
         // Process logic for renderer component
