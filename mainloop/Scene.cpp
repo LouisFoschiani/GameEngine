@@ -1,7 +1,10 @@
 #include "Scene.h"
 
 namespace ESGI {
-
+    int Scene::getPoolSize() const
+    {
+        return 0;
+    }
     void Scene::RemoveObject(GameObject* obj) {
         
         delete obj;
@@ -69,6 +72,13 @@ namespace ESGI {
 
     }
 
+    int Scene::GetPoolSize() const {
+        return poolSize;
+    }
+
+    GameObject** Scene::GetPool() {
+        return pool;
+    }
     /*
     void Scene::Render() {
         for (auto* obj : gameObjects) {

@@ -7,6 +7,11 @@
 namespace ESGI {
     class Scene {
     public:
+
+        int GetPoolSize() const;
+
+        GameObject** GetPool();
+
         Scene(int poolSize) : poolSize(poolSize) {
             pool = new GameObject*[poolSize];
         }

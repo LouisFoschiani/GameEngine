@@ -171,7 +171,7 @@ namespace ESGI
 			sceneManager->sceneVector[0]->AddObject(go);
 			GameObjectFactory::GameObjectToJson(go);
 
-			sceneManager->LoadScene("C:\\Users\\jejar\\Desktop\\SceneJson.json");
+			sceneManager->LoadScene("C:\\Users\\Louis\\Desktop\\SceneJson.json");
 
 			sceneManager->sceneVector[0]->Debug();
 
