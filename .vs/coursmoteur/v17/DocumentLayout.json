@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\GameEngine\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\Component.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Component.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\GameObjectFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\GameObjectFactory.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -13,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\BehaviourComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\BehaviourComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\Component.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Component.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\GameObjectFactory.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -62,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
@@ -74,12 +74,11 @@
               "RelativeToolTip": "mainloop\\GameObjectFactory.h",
               "ViewState": "AQIAAAcAAAAAAAAAAAAWwA0AAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-04T11:02:27.443Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T11:02:27.443Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "BehaviourComponent.h",
               "DocumentMoniker": "D:\\GameEngine\\mainloop\\BehaviourComponent.h",
               "RelativeDocumentMoniker": "mainloop\\BehaviourComponent.h",
@@ -87,25 +86,24 @@
               "RelativeToolTip": "mainloop\\BehaviourComponent.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-04T10:35:49.209Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T10:35:49.209Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Component.h",
               "DocumentMoniker": "D:\\GameEngine\\mainloop\\Component.h",
               "RelativeDocumentMoniker": "mainloop\\Component.h",
               "ToolTip": "D:\\GameEngine\\mainloop\\Component.h",
               "RelativeToolTip": "mainloop\\Component.h",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAABQAAAAPAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABYAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-04T10:35:47.26Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "GameObjectFactory.cpp",
               "DocumentMoniker": "D:\\GameEngine\\mainloop\\GameObjectFactory.cpp",
               "RelativeDocumentMoniker": "mainloop\\GameObjectFactory.cpp",
@@ -118,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "TransformComponent.h",
               "DocumentMoniker": "D:\\GameEngine\\mainloop\\TransformComponent.h",
               "RelativeDocumentMoniker": "mainloop\\TransformComponent.h",
@@ -126,8 +124,7 @@
               "RelativeToolTip": "mainloop\\TransformComponent.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-04T10:22:16.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-04T10:22:16.343Z"
             },
             {
               "$type": "Document",
