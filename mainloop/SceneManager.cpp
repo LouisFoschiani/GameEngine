@@ -1,7 +1,10 @@
 #include "SceneManager.h"
 
 namespace ESGI {
-    bool SceneManager::loadScene(const std::string& filename) {
+
+
+
+    bool SceneManager::LoadScene(const std::string& filename) {
         std::ifstream file(filename);
         nlohmann::json j;
         file >> j;
@@ -29,8 +32,14 @@ namespace ESGI {
             }
         }
 
-         SceneManager::sceneVector.push_back(scene);
+         sceneVector.push_back(scene);
         return true;
+    }
+
+    void SceneManager::CreateScene(int poolSize)
+    {
+        Scene* scene = new Scene(poolSize);
+        sceneVector.push_back(scene);
     }
 
     void SceneManager::processTransformComponent(ESGI::GameObject* gameObject, const nlohmann::json& componentData) {

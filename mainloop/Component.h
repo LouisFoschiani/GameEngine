@@ -21,5 +21,6 @@ namespace ESGI
 		~Component();
 		void Link(GameObject* gameObject);
 		virtual std::string ToJson() const;
+		virtual void Debug();
 	};
 }

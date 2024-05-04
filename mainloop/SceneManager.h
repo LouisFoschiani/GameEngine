@@ -11,9 +11,15 @@ namespace ESGI {
     public:
 
         SceneManager();
-        ~SceneManager();
-        static std::vector<Scene*> sceneVector;
-        static bool loadScene(const std::string& filename);
+        ~SceneManager() {
+            for each (Scene* scene in sceneVector)
+            {
+                delete scene;
+            }
+        }
+        std::vector<Scene*> sceneVector;
+        bool LoadScene(const std::string& filename);
+        void CreateScene(int poolSize);
 
     private:
         void processTransformComponent(ESGI::GameObject* gameObject, const nlohmann::json& componentData);

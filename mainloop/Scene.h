@@ -27,6 +27,9 @@ namespace ESGI {
         void DestroyPool();
         int FindSpace() const;
 
+        void Debug();
+
+
     private:
         const int poolSize;
         int currentIndex = 0;

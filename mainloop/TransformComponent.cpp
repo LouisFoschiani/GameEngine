@@ -40,6 +40,12 @@ void ESGI::TransformComponent::Move(const float x, const float y, const float z)
 
 }
 
+void ESGI::TransformComponent::Debug()
+{
+	std::cout << "X = " << posX << " Y = " << posY << " Z = " << posZ << std::endl;
+
+}
+
 std::string ESGI::TransformComponent::ToJson() const {
 	nlohmann::json j;
 	j["type"] = "TransformComponent";

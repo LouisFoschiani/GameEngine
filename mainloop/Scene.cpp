@@ -55,6 +55,20 @@ namespace ESGI {
         return -1;
     }
 
+    void Scene::Debug()
+    {
+
+        for (int i = 0; i < poolSize; ++i) {
+            if (pool[i] != NULL) {
+                for each (auto component in pool[i]->GetComponents())
+                {
+                    component->Debug();
+                }
+            }
+        }
+
+    }
+
     /*
     void Scene::Render() {
         for (auto* obj : gameObjects) {

@@ -16,6 +16,7 @@
 #include <vector>
 #include <thread>
 #include "SceneManager.h"
+#include "GameObjectFactory.h"
 
 namespace ESGI
 {
@@ -162,10 +163,19 @@ namespace ESGI
 			if (initOk) {
 				initOk &= Initialize();
 				
-				initOk &= sceneManager->loadScene("SceneJson.json");
-
 			}
-			sceneManager->sceneVector[0];
+
+			sceneManager->CreateScene(1024);
+
+			GameObject* go = GameObjectFactory::CreateGameObject("");
+			sceneManager->sceneVector[0]->AddObject(go);
+			GameObjectFactory::GameObjectToJson(go);
+
+			sceneManager->LoadScene("C:\\Users\\jejar\\Desktop\\SceneJson.json");
+
+			sceneManager->sceneVector[0]->Debug();
+
+			return;
 
 
 			m_needToQuit = !initOk;

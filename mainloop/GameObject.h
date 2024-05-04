@@ -8,16 +8,11 @@
 
 namespace ESGI
 {
-	struct GameObject : public InfraStructure
+	struct GameObject
 	{
 
 	private:
 		std::vector<Component*> components;
-
-
-		bool Initialize() final;
-
-		void DeInitialize() final;
 
 
 	public:
@@ -26,7 +21,6 @@ namespace ESGI
 		void Update(float deltaTime);
 		// ce n'est pas une fonction virtuelle !
 		void Update();
-		static GameObject* Allocate();
 		void AddComponent(Component* component);
 		std::vector<Component*>& GetComponents();
 
