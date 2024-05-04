@@ -1,41 +1,68 @@
 #include "Scene.h"
-#include "GameObject.h"
 
-Scene::Scene() {
-   std::vector<ESGI::GameObject*> pool;
-}
+namespace ESGI {
 
-Scene::~Scene() {
-    // Destructeur
-    for (auto* obj : gameObjects) {
-        delete obj;  // Assurez-vous de gérer correctement la mémoire
+    void Scene::RemoveObject(GameObject* obj) {
+        
+        delete obj;
+
     }
-    gameObjects.clear();
-}
 
-void Scene::AddObject(ESGI::GameObject* obj) {
-    gameObjects.push_back(obj);
-}
+    bool Scene::AddObject(GameObject* obj) const {
 
-void Scene::RemoveObject(ESGI::GameObject* obj) {
-    auto it = std::remove(gameObjects.begin(), gameObjects.end(), obj);
-    if (it != gameObjects.end()) {
-        delete* it;
-        gameObjects.erase(it);
+        int index = FindSpace();
+
+        if (index != -1) {
+            pool[index] = obj;
+
+            return true;
+        }
+
+        return false;
+        
+
     }
-}
 
-void Scene::Update(float deltaTime) {
-    for (auto* obj : gameObjects) {
-        obj->Update(deltaTime);
+
+    void Scene::Update(float deltaTime) {
+        
+        for (int i = 0; i < poolSize; ++i) {
+            pool[i]->Update(deltaTime);
+        }
     }
-}
 
-/*
-void Scene::Render() {
-    for (auto* obj : gameObjects) {
-        obj->Render();
+    void Scene::ResetPool()
+    {
+        delete[] pool;
+        pool = new GameObject*[poolSize];
+
     }
-}
 
-*/
+    void Scene::DestroyPool()
+    {
+        delete[] pool;
+    }
+
+    int Scene::FindSpace() const
+    {
+
+        for (int i = 0; i < poolSize; ++i) {
+            if (pool[i] == NULL)
+                return i;
+        }
+
+
+        return -1;
+    }
+
+    /*
+    void Scene::Render() {
+        for (auto* obj : gameObjects) {
+            obj->Render();
+        }
+    }
+
+    */
+
+
+}

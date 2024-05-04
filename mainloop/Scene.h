@@ -2,17 +2,35 @@
 
 #include <vector>
 #include "GameObject.h" 
+#include <cassert>
 
-class Scene {
-public:
-    Scene();
-    ~Scene();
+namespace ESGI {
+    class Scene {
+    public:
+        Scene(int poolSize) : poolSize(poolSize) {
+            pool = new GameObject*[poolSize];
+        }
+        ~Scene() {
 
-    void AddObject(ESGI::GameObject* obj);
-    void RemoveObject(ESGI::GameObject* obj);
-    void Update(float deltaTime);
-    void Render();
+            for (int i = 0; i < poolSize; ++i) {
+                delete pool[i];
+            }
 
-private:
-    std::vector<ESGI::GameObject*> gameObjects;
-};
+            delete[] pool;
+        }
+
+        void RemoveObject(GameObject* obj);
+        bool AddObject(GameObject* obj) const;
+        void Update(float deltaTime);
+        void Render();
+        void ResetPool();
+        void DestroyPool();
+        int FindSpace() const;
+
+    private:
+        const int poolSize;
+        int currentIndex = 0;
+        GameObject** pool;
+    };
+
+}
