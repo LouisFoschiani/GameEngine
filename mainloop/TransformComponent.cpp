@@ -1,5 +1,4 @@
 #include "TransformComponent.h"
-#include "nlohmann/json.hpp"
 
 	float TransformComponent::GetX() const
 	{
@@ -44,6 +43,15 @@
 	{
 		std::cout << "X = " << posX << " Y = " << posY << " Z = " << posZ << std::endl;
 
+	}
+
+	void TransformComponent::Update()
+	{
+		Debug();
+	}
+
+	void TransformComponent::FixedUpdate()
+	{
 	}
 
 	std::string TransformComponent::ToJson() const {

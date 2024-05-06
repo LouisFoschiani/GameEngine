@@ -1,6 +1,6 @@
 #pragma once
 
-#include "InfraStructure.h"
+#include "BaseObject.h"
 
 #include <chrono>
 #include <vector>
@@ -19,7 +19,7 @@
 		bool Repeat;
 	};
 
-	struct Clock : public InfraStructure
+	struct Clock : public BaseObject
 	{
 		std::vector<std::pair<Timer, std::function<void()>>> m_Timers;
 

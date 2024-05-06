@@ -24,7 +24,7 @@
     <ClCompile Include="Input.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
-    <ClCompile Include="mainloop.cpp">
+    <ClCompile Include="Core.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="MoveBehaviour.cpp">
@@ -51,6 +51,9 @@
     <ClCompile Include="GameObjectFactory.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
+    <ClCompile Include="Subsystem.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Engine.h">
@@ -59,7 +62,7 @@
     <ClInclude Include="EngineContext.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="InfraStructure.h">
+    <ClInclude Include="BaseObject.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
     <ClInclude Include="Input.h">
@@ -95,11 +98,15 @@
     <ClInclude Include="GameObjectFactory.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
+    <ClInclude Include="Subsystem.h">
+      <Filter>Fichiers d%27en-tête</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
     <None Include="SceneJson.json">
       <Filter>Fichiers de ressources</Filter>
     </None>
+    <None Include="C:\Users\jejar\Downloads\README.md" />
   </ItemGroup>
 </Project>

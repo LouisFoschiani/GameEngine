@@ -6,3 +6,7 @@ void MoveBehaviour::Update()
 
 
 }
+
+void MoveBehaviour::FixedUpdate()
+{
+}

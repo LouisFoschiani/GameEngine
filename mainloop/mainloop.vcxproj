@@ -104,6 +104,7 @@
       <Optimization>Disabled</Optimization>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <SDLCheck>true</SDLCheck>
+      <LanguageStandard>stdcpp17</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -152,11 +153,12 @@
     <ClCompile Include="Engine.cpp" />
     <ClCompile Include="GameObject.cpp" />
     <ClCompile Include="GameObjectFactory.cpp" />
-    <ClCompile Include="mainloop.cpp" />
+    <ClCompile Include="Core.cpp" />
     <ClCompile Include="Input.cpp" />
     <ClCompile Include="MoveBehaviour.cpp" />
     <ClCompile Include="Scene.cpp" />
     <ClCompile Include="SceneManager.cpp" />
+    <ClCompile Include="Subsystem.cpp" />
     <ClCompile Include="Timer.cpp" />
     <ClCompile Include="TransformComponent.cpp" />
   </ItemGroup>
@@ -167,16 +169,18 @@
     <ClInclude Include="EngineContext.h" />
     <ClInclude Include="GameObject.h" />
     <ClInclude Include="GameObjectFactory.h" />
-    <ClInclude Include="InfraStructure.h" />
+    <ClInclude Include="BaseObject.h" />
     <ClInclude Include="Input.h" />
     <ClInclude Include="MoveBehaviour.h" />
     <ClInclude Include="Scene.h" />
     <ClInclude Include="SceneManager.h" />
+    <ClInclude Include="Subsystem.h" />
     <ClInclude Include="Timer.h" />
     <ClInclude Include="TransformComponent.h" />
     <ClInclude Include="Utils.h" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="C:\Users\jejar\Downloads\README.md" />
     <None Include="packages.config" />
     <None Include="SceneJson.json" />
   </ItemGroup>

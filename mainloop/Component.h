@@ -1,25 +1,25 @@
 #pragma once
 
-// #include "GameObject.h"
 #include <string>
+#include "nlohmann/json.hpp"
 
-struct GameObject;
+class GameObject;
 
 class Component
 {
 
 private:
-	GameObject* gameObject;
-	virtual bool Initialize();
-
-	virtual void DeInitialize();
-
-	virtual void Update();
+	GameObject* gameObject = nullptr;
 
 public:
-	Component();
-	~Component();
+	Component() = default;
+	~Component() = default;
+	virtual std::string GetType() const = 0;
 	void Link(GameObject* gameObject);
-	virtual std::string ToJson() const;
-	virtual void Debug();
+	virtual std::string ToJson() const {
+		return "";
+	}
+	virtual void Debug(){}
+	virtual void Update() = 0;
+	virtual void FixedUpdate() = 0;
 };

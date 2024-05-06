@@ -8,27 +8,33 @@
 
 	void Engine::ProcessSystems(double elapsedTime)
 	{
-		EngineSystem& system = *m_AIEngine;
+		Subsystem* systems[2] = {behaviourEngine, physicEngine};
 
-		system.accumulatedTime += elapsedTime;
 
-		float deltaTime = static_cast<float>(elapsedTime);
+		for (Subsystem* system : systems) {
+			system->accumulatedTime += elapsedTime;
 
-		system.Update(deltaTime);
+			float deltaTime = static_cast<float>(elapsedTime);
 
-		int loops = system.maxIterations;
-		// on sort de la boucle des que l'un des deux tests est faux
-		while ((system.accumulatedTime > system.targetFrameRate) && (loops > 0))
-		{
-			system.accumulatedTime -= system.targetFrameRate;
+			system->Update(deltaTime);
 
-			// alternativement on pourrait recalculer le deltaTime a chaque tour de boucle
-			// et rappeler Update() si loops < system.maxIterations
+			int loops = system->maxIterations;
+			// on sort de la boucle des que l'un des deux tests est faux
+			while ((system->accumulatedTime > system->targetFrameRate) && (loops > 0))
+			{
+				system->accumulatedTime -= system->targetFrameRate;
 
-			system.FixedUpdate(static_cast<float>(system.targetFrameRate));
+				// alternativement on pourrait recalculer le deltaTime a chaque tour de boucle
+				// et rappeler Update() si loops < system.maxIterations
 
-			--loops;			
+				system->FixedUpdate(static_cast<float>(system->targetFrameRate));
+
+				--loops;
+			}
 		}
+
+
+		
 	}
 
 	bool Engine::Initialize()
@@ -38,11 +44,13 @@
 #endif
 
 		// Les systemes pourraient etre cree de facon data-driven, plugins, ou en dur
-		EngineSystem* system = new EngineSystem;
-		system->Create();
-		system->Initialize();
+		behaviourEngine = new Subsystem(60);
+		behaviourEngine->Create();
+		behaviourEngine->Initialize();
 
-		m_AIEngine = system;
+		physicEngine = new Subsystem(30);
+		physicEngine->Create();
+		physicEngine->Initialize();
 
 		std::cout << "[Engine] initialized\n";
 
@@ -52,8 +60,12 @@
 	void Engine::DeInitialize()
 	{
 		// libere et detruit les systems
-		m_AIEngine->DeInitialize();
-		m_AIEngine->Destroy();
+		behaviourEngine->DeInitialize();
+		behaviourEngine->Destroy();
+
+
+		physicEngine->DeInitialize();
+		physicEngine->Destroy();
 
 		std::cout << "[Engine] deinitialized\n";
 	}

@@ -24,17 +24,46 @@
 	// ce n'est pas une fonction virtuelle !
 	void Input::Update()
 	{
-		QuitButtonPressed = GetQuitButtonState();
+
+		if (_kbhit())
+		{
+
+			int ch = _getch();
+
+			QuitButtonPressed = GetQuitButtonState(ch);
+			AddSceneButtonPressed = GetAddSceneButtonState(ch);
+			AddGameObjectButtonPressed = GetAddGameObjectButtonState(ch);
+			LoadSceneButtonPressed = GetLoadSceneButtonState(ch);
+		}
+		else {
+			QuitButtonPressed = false;
+			AddSceneButtonPressed = false;
+			AddGameObjectButtonPressed = false;
+			LoadSceneButtonPressed = false;
+		}
+
+
+		
 		std::cout << "[Input] update\n";
 	}
 
-	bool Input::GetQuitButtonState()
+
+	bool Input::GetQuitButtonState(const int ch)
 	{
-		if (_kbhit())
-		{
-			int ch = _getch();
-			if (ch == 27)			// ESC 
-				return true;
-		}
-		return false;
+		return ch == 27; // ESC
+	}
+
+	bool Input::GetAddSceneButtonState(const int ch)
+	{
+		return ch == 115; // s stands for Scene
+	}
+
+	bool Input::GetAddGameObjectButtonState(const int ch)
+	{
+		return ch == 103; // g  stands for GameObject
+	}
+
+	bool Input::GetLoadSceneButtonState(const int ch)
+	{
+		return ch == 108; // l  stands for load
 	}

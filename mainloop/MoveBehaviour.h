@@ -6,5 +6,6 @@ class MoveBehaviour : public BehaviourComponent
 {
 
 	void Update() final;
+	void FixedUpdate() final;
 
 };

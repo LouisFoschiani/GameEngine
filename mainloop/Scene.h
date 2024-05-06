@@ -2,41 +2,38 @@
 
 #include <vector>
 #include "Component.h"
-#include "GameObject.h" 
-#include <cassert>
+#include <string>
+
+class GameObject;
 
     class Scene {
     public:
 
         int GetPoolSize() const;
+        std::string name;
 
-        GameObject** GetPool();
+        GameObject* GetPool();
 
-        Scene(int poolSize) : poolSize(poolSize) {
-            pool = new GameObject*[poolSize];
-        }
+        Scene(int poolSize, const std::string n);
         ~Scene() {
 
-            for (int i = 0; i < poolSize; ++i) {
-                delete pool[i];
-            }
-
-            delete[] pool;
+            delete pool;
         }
 
         void RemoveObject(GameObject* obj);
-        bool AddObject(GameObject* obj) const;
         void Update(float deltaTime);
         void Render();
+        GameObject* Allocate();
         void ResetPool();
         void DestroyPool();
         int FindSpace() const;
 
         void Debug();
+        std::string GetName() const;
 
 
     private:
         const int poolSize;
         int currentIndex = 0;
-        GameObject** pool;
+        GameObject* pool;
     };
