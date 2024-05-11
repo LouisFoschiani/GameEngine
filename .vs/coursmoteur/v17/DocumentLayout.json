@@ -1,65 +1,77 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "G:\\GameEngine\\",
+  "WorkspaceRootPath": "D:\\GameEngine\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|G:\\GameEngine\\mainloop\\Subsystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Subsystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|G:\\GameEngine\\mainloop\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Engine.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|G:\\GameEngine\\mainloop\\BehaviourComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\BehaviourComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|G:\\GameEngine\\mainloop\\Core.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\Core.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Core.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|G:\\GameEngine\\mainloop\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|G:\\GameEngine\\mainloop\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|G:\\GameEngine\\mainloop\\MoveBehaviour.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\MoveBehaviour.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|G:\\GameEngine\\mainloop\\TransformComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\TransformComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|G:\\GameEngine\\mainloop\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|G:\\GameEngine\\mainloop\\TransformComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\TransformComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|G:\\GameEngine\\mainloop\\MoveBehaviour.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\MoveBehaviour.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|G:\\GameEngine\\mainloop\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Scene.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|G:\\GameEngine\\mainloop\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Scene.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\GameObject.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\GameObject.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\SceneManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\SceneManager.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Engine.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|G:\\GameEngine\\mainloop\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\Subsystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Subsystem.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\Subsystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Subsystem.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\BehaviourComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\BehaviourComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\MoveBehaviour.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\MoveBehaviour.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\TransformComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\TransformComponent.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\TransformComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\TransformComponent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\MoveBehaviour.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\MoveBehaviour.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Input.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|G:\\GameEngine\\mainloop\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|D:\\GameEngine\\mainloop\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{83744B4D-66A1-440F-A82B-46D915F3CDA6}|mainloop\\mainloop.vcxproj|solutionrelative:mainloop\\Input.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -70,202 +82,234 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 11,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "GameObject.h",
-              "DocumentMoniker": "G:\\GameEngine\\mainloop\\GameObject.h",
-              "RelativeDocumentMoniker": "mainloop\\GameObject.h",
-              "ToolTip": "G:\\GameEngine\\mainloop\\GameObject.h",
-              "RelativeToolTip": "mainloop\\GameObject.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "DocumentIndex": 3,
+              "Title": "Scene.h",
+              "DocumentMoniker": "D:\\GameEngine\\mainloop\\Scene.h",
+              "RelativeDocumentMoniker": "mainloop\\Scene.h",
+              "ToolTip": "D:\\GameEngine\\mainloop\\Scene.h",
+              "RelativeToolTip": "mainloop\\Scene.h",
+              "ViewState": "AQIAAA0AAAAAAAAAAAAhwBkAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-06T20:36:34.324Z",
+              "WhenOpened": "2024-05-11T13:38:31.468Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "TransformComponent.cpp",
-              "DocumentMoniker": "G:\\GameEngine\\mainloop\\TransformComponent.cpp",
-              "RelativeDocumentMoniker": "mainloop\\TransformComponent.cpp",
-              "ToolTip": "G:\\GameEngine\\mainloop\\TransformComponent.cpp",
-              "RelativeToolTip": "mainloop\\TransformComponent.cpp",
-              "ViewState": "AQIAABYAAAAAAAAAAAAEwDYAAAACAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-06T20:19:38.793Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "MoveBehaviour.h",
-              "DocumentMoniker": "G:\\GameEngine\\mainloop\\MoveBehaviour.h",
-              "RelativeDocumentMoniker": "mainloop\\MoveBehaviour.h",
-              "ToolTip": "G:\\GameEngine\\mainloop\\MoveBehaviour.h",
-              "RelativeToolTip": "mainloop\\MoveBehaviour.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAvAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-06T20:17:38.065Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SceneManager.h",
-              "DocumentMoniker": "G:\\GameEngine\\mainloop\\SceneManager.h",
+              "DocumentMoniker": "D:\\GameEngine\\mainloop\\SceneManager.h",
               "RelativeDocumentMoniker": "mainloop\\SceneManager.h",
-              "ToolTip": "G:\\GameEngine\\mainloop\\SceneManager.h",
+              "ToolTip": "D:\\GameEngine\\mainloop\\SceneManager.h",
               "RelativeToolTip": "mainloop\\SceneManager.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAWAAAA",
+              "ViewState": "AQIAABQAAAAAAAAAAAAcwBwAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-04T09:29:39.742Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GameObject.cpp",
-              "DocumentMoniker": "G:\\GameEngine\\mainloop\\GameObject.cpp",
-              "RelativeDocumentMoniker": "mainloop\\GameObject.cpp",
-              "ToolTip": "G:\\GameEngine\\mainloop\\GameObject.cpp",
-              "RelativeToolTip": "mainloop\\GameObject.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAADAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-04T09:29:39.732Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "TransformComponent.h",
-              "DocumentMoniker": "G:\\GameEngine\\mainloop\\TransformComponent.h",
-              "RelativeDocumentMoniker": "mainloop\\TransformComponent.h",
-              "ToolTip": "G:\\GameEngine\\mainloop\\TransformComponent.h",
-              "RelativeToolTip": "mainloop\\TransformComponent.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAANAAAA",
+              "DocumentIndex": 5,
+              "Title": "GameObject.h",
+              "DocumentMoniker": "D:\\GameEngine\\mainloop\\GameObject.h",
+              "RelativeDocumentMoniker": "mainloop\\GameObject.h",
+              "ToolTip": "D:\\GameEngine\\mainloop\\GameObject.h",
+              "RelativeToolTip": "mainloop\\GameObject.h",
+              "ViewState": "AQIAABMAAAAAAAAAAAAhwB8AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-04T19:22:36.849Z",
+              "WhenOpened": "2024-05-06T20:36:34.324Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MoveBehaviour.cpp",
-              "DocumentMoniker": "G:\\GameEngine\\mainloop\\MoveBehaviour.cpp",
-              "RelativeDocumentMoniker": "mainloop\\MoveBehaviour.cpp",
-              "ToolTip": "G:\\GameEngine\\mainloop\\MoveBehaviour.cpp",
-              "RelativeToolTip": "mainloop\\MoveBehaviour.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAXAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-04T14:17:37.794Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "BehaviourComponent.h",
-              "DocumentMoniker": "G:\\GameEngine\\mainloop\\BehaviourComponent.h",
-              "RelativeDocumentMoniker": "mainloop\\BehaviourComponent.h",
-              "ToolTip": "G:\\GameEngine\\mainloop\\BehaviourComponent.h",
-              "RelativeToolTip": "mainloop\\BehaviourComponent.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-04T10:35:49.209Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Core.cpp",
-              "DocumentMoniker": "G:\\GameEngine\\mainloop\\Core.cpp",
-              "RelativeDocumentMoniker": "mainloop\\Core.cpp",
-              "ToolTip": "G:\\GameEngine\\mainloop\\Core.cpp",
-              "RelativeToolTip": "mainloop\\Core.cpp",
-              "ViewState": "AQIAAJwAAAAAAAAAAAAAALEAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-04T21:27:03.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Scene.cpp",
-              "DocumentMoniker": "G:\\GameEngine\\mainloop\\Scene.cpp",
-              "RelativeDocumentMoniker": "mainloop\\Scene.cpp",
-              "ToolTip": "G:\\GameEngine\\mainloop\\Scene.cpp",
-              "RelativeToolTip": "mainloop\\Scene.cpp",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAADYAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-04T09:29:39.743Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Engine.h",
-              "DocumentMoniker": "G:\\GameEngine\\mainloop\\Engine.h",
+              "DocumentMoniker": "D:\\GameEngine\\mainloop\\Engine.h",
               "RelativeDocumentMoniker": "mainloop\\Engine.h",
-              "ToolTip": "G:\\GameEngine\\mainloop\\Engine.h",
+              "ToolTip": "D:\\GameEngine\\mainloop\\Engine.h",
               "RelativeToolTip": "mainloop\\Engine.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAKAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAhwAoAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-05-04T14:11:03.871Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Subsystem.cpp",
-              "DocumentMoniker": "G:\\GameEngine\\mainloop\\Subsystem.cpp",
-              "RelativeDocumentMoniker": "mainloop\\Subsystem.cpp",
-              "ToolTip": "G:\\GameEngine\\mainloop\\Subsystem.cpp",
-              "RelativeToolTip": "mainloop\\Subsystem.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-06T20:06:02.497Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 8,
               "Title": "Engine.cpp",
-              "DocumentMoniker": "G:\\GameEngine\\mainloop\\Engine.cpp",
+              "DocumentMoniker": "D:\\GameEngine\\mainloop\\Engine.cpp",
               "RelativeDocumentMoniker": "mainloop\\Engine.cpp",
-              "ToolTip": "G:\\GameEngine\\mainloop\\Engine.cpp",
+              "ToolTip": "D:\\GameEngine\\mainloop\\Engine.cpp",
               "RelativeToolTip": "mainloop\\Engine.cpp",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAC4AAAARAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAuwEQAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-05-04T09:29:39.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Input.cpp",
-              "DocumentMoniker": "G:\\GameEngine\\mainloop\\Input.cpp",
-              "RelativeDocumentMoniker": "mainloop\\Input.cpp",
-              "ToolTip": "G:\\GameEngine\\mainloop\\Input.cpp",
-              "RelativeToolTip": "mainloop\\Input.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAA2AAAA",
+              "DocumentIndex": 4,
+              "Title": "GameObject.cpp",
+              "DocumentMoniker": "D:\\GameEngine\\mainloop\\GameObject.cpp",
+              "RelativeDocumentMoniker": "mainloop\\GameObject.cpp",
+              "ToolTip": "D:\\GameEngine\\mainloop\\GameObject.cpp",
+              "RelativeToolTip": "mainloop\\GameObject.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-05-06T14:53:26.289Z",
+              "WhenOpened": "2024-05-04T09:29:39.732Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SceneManager.cpp",
+              "DocumentMoniker": "D:\\GameEngine\\mainloop\\SceneManager.cpp",
+              "RelativeDocumentMoniker": "mainloop\\SceneManager.cpp",
+              "ToolTip": "D:\\GameEngine\\mainloop\\SceneManager.cpp",
+              "RelativeToolTip": "mainloop\\SceneManager.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAC8AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-11T13:32:27.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Core.cpp",
+              "DocumentMoniker": "D:\\GameEngine\\mainloop\\Core.cpp",
+              "RelativeDocumentMoniker": "mainloop\\Core.cpp",
+              "ToolTip": "D:\\GameEngine\\mainloop\\Core.cpp",
+              "RelativeToolTip": "mainloop\\Core.cpp",
+              "ViewState": "AQIAAEsAAAAAAAAAAAAAAFcAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-04T21:27:03.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Scene.cpp",
+              "DocumentMoniker": "D:\\GameEngine\\mainloop\\Scene.cpp",
+              "RelativeDocumentMoniker": "mainloop\\Scene.cpp",
+              "ToolTip": "D:\\GameEngine\\mainloop\\Scene.cpp",
+              "RelativeToolTip": "mainloop\\Scene.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAABMAAAAWAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-04T09:29:39.743Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Subsystem.h",
+              "DocumentMoniker": "D:\\GameEngine\\mainloop\\Subsystem.h",
+              "RelativeDocumentMoniker": "mainloop\\Subsystem.h",
+              "ToolTip": "D:\\GameEngine\\mainloop\\Subsystem.h",
+              "RelativeToolTip": "mainloop\\Subsystem.h",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAUAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-11T13:58:07.207Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Subsystem.cpp",
+              "DocumentMoniker": "D:\\GameEngine\\mainloop\\Subsystem.cpp",
+              "RelativeDocumentMoniker": "mainloop\\Subsystem.cpp",
+              "ToolTip": "D:\\GameEngine\\mainloop\\Subsystem.cpp",
+              "RelativeToolTip": "mainloop\\Subsystem.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-06T20:06:02.497Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "BehaviourComponent.h",
+              "DocumentMoniker": "D:\\GameEngine\\mainloop\\BehaviourComponent.h",
+              "RelativeDocumentMoniker": "mainloop\\BehaviourComponent.h",
+              "ToolTip": "D:\\GameEngine\\mainloop\\BehaviourComponent.h",
+              "RelativeToolTip": "mainloop\\BehaviourComponent.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-04T10:35:49.209Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MoveBehaviour.cpp",
+              "DocumentMoniker": "D:\\GameEngine\\mainloop\\MoveBehaviour.cpp",
+              "RelativeDocumentMoniker": "mainloop\\MoveBehaviour.cpp",
+              "ToolTip": "D:\\GameEngine\\mainloop\\MoveBehaviour.cpp",
+              "RelativeToolTip": "mainloop\\MoveBehaviour.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-04T14:17:37.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "TransformComponent.h",
+              "DocumentMoniker": "D:\\GameEngine\\mainloop\\TransformComponent.h",
+              "RelativeDocumentMoniker": "mainloop\\TransformComponent.h",
+              "ToolTip": "D:\\GameEngine\\mainloop\\TransformComponent.h",
+              "RelativeToolTip": "mainloop\\TransformComponent.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-04T19:22:36.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MoveBehaviour.h",
+              "DocumentMoniker": "D:\\GameEngine\\mainloop\\MoveBehaviour.h",
+              "RelativeDocumentMoniker": "mainloop\\MoveBehaviour.h",
+              "ToolTip": "D:\\GameEngine\\mainloop\\MoveBehaviour.h",
+              "RelativeToolTip": "mainloop\\MoveBehaviour.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-05-06T20:17:38.065Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 14,
+              "Title": "TransformComponent.cpp",
+              "DocumentMoniker": "D:\\GameEngine\\mainloop\\TransformComponent.cpp",
+              "RelativeDocumentMoniker": "mainloop\\TransformComponent.cpp",
+              "ToolTip": "D:\\GameEngine\\mainloop\\TransformComponent.cpp",
+              "RelativeToolTip": "mainloop\\TransformComponent.cpp",
+              "ViewState": "AQIAABYAAAAAAAAAAAAEwDYAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-06T20:19:38.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Input.cpp",
+              "DocumentMoniker": "D:\\GameEngine\\mainloop\\Input.cpp",
+              "RelativeDocumentMoniker": "mainloop\\Input.cpp",
+              "ToolTip": "D:\\GameEngine\\mainloop\\Input.cpp",
+              "RelativeToolTip": "mainloop\\Input.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-06T14:53:26.289Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
               "Title": "Input.h",
-              "DocumentMoniker": "G:\\GameEngine\\mainloop\\Input.h",
+              "DocumentMoniker": "D:\\GameEngine\\mainloop\\Input.h",
               "RelativeDocumentMoniker": "mainloop\\Input.h",
-              "ToolTip": "G:\\GameEngine\\mainloop\\Input.h",
+              "ToolTip": "D:\\GameEngine\\mainloop\\Input.h",
               "RelativeToolTip": "mainloop\\Input.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-05-06T17:26:58.923Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T17:26:58.923Z"
             }
           ]
         }

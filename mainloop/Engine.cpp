@@ -57,6 +57,21 @@
 		return true;
 	}
 
+	void Engine::FreeComponent(Component* component)
+	{
+
+		if (component->GetType() == "BehaviourComponent") {
+
+			behaviourEngine->UnregisterComponent(component);
+
+		}else if (component->GetType() == "TransformComponent") {
+
+			physicEngine->UnregisterComponent(component);
+
+		}
+
+	}
+
 	void Engine::DeInitialize()
 	{
 		// libere et detruit les systems

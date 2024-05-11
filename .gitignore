@@ -79,6 +79,7 @@ StyleCopReport.xml
 *.pch
 *.pdb
 *.ipdb
+*.ipch
 *.pgc
 *.pgd
 *.rsp
@@ -396,3 +397,5 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+*.ipch
+*.ipch

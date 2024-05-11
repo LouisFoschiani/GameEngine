@@ -3,10 +3,10 @@
 #include <iostream>
 #include "Component.h"
 #include "Scene.h"
-#include "SceneManager.h"
 
 class Component;
 class Scene;
+class SceneManager;
 
 class GameObject
 	{
@@ -18,13 +18,7 @@ class GameObject
 
 	public:
 		GameObject() = default;
-		~GameObject() {
-			inUse = false;
-			for each (Component* comp in components)
-			{
-				delete comp;
-			}
-		};
+		~GameObject();
 		bool IsInUse() const;
 		void Update(float deltaTime){}
 		// ce n'est pas une fonction virtuelle !
@@ -35,7 +29,7 @@ class GameObject
 
 		void* operator new(const size_t size, Scene* scene);
 		void operator delete(void* pointer) {
-			// idem code precedent
+
 		}
 
 	};

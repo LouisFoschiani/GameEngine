@@ -15,14 +15,12 @@ class GameObject;
         GameObject* GetPool();
 
         Scene(int poolSize, const std::string n);
-        ~Scene() {
-
-            delete pool;
-        }
+        ~Scene() {};
 
         void RemoveObject(GameObject* obj);
         void Update(float deltaTime);
         void Render();
+        void ClearScene();
         GameObject* Allocate();
         void ResetPool();
         void DestroyPool();

@@ -1,5 +1,17 @@
 #include "GameObject.h"
+#include "SceneManager.h"
+#include <iostream>
 
+
+GameObject::~GameObject() {
+	inUse = false;
+	for each (Component * comp in components)
+	{
+		SceneManager::engine->FreeComponent(comp);
+		delete comp;
+	}
+	components.clear();
+}
 
 bool GameObject::IsInUse() const
 {

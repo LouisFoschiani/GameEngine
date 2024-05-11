@@ -5,8 +5,10 @@
 
     bool SceneManager::LoadScene(const std::string& path) {
 
-        if (SceneManager::activeScene != nullptr)
+        if (SceneManager::activeScene != nullptr) {
             SaveScene(SceneManager::activeScene);
+            delete SceneManager::activeScene;
+        }
 
         std::ifstream file(path);
         std::filesystem::path filepath(path);
@@ -41,8 +43,10 @@
 
     void SceneManager::CreateScene(int poolSize, std::string name)
     {
-        if (SceneManager::activeScene != nullptr)
+        if (SceneManager::activeScene != nullptr) {
             SaveScene(SceneManager::activeScene);
+            SceneManager::activeScene->ClearScene();
+        }
         SceneManager::activeScene = new Scene(poolSize, name);
     }
 

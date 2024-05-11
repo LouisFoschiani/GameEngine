@@ -15,6 +15,11 @@
         }
     }
 
+    void Scene::ClearScene()
+    {
+        delete[] pool;
+    }
+
     GameObject* Scene::Allocate()
     {
 

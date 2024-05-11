@@ -21,7 +21,7 @@ struct Engine : public BaseObject
 	// ---
 
 	bool Initialize() final;
-
+	void FreeComponent(Component* component);
 	void DeInitialize() final;
 
 	// ce n'est pas une fonction virtuelle !
